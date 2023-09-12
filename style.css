@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700;1,800&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+    a{
+        text-decoration: none;
+    }
+    ul li{
+        list-style-type: none;
+        
+    }
+
+
+.Header
+{
+    width: 100%;
+    height: 121px;
+    background-color:#daac00
+}
+.Header .container{
+    width: 1200px;
+    height: 100%;
+    background-color: #daac00;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Header-logo img{
+    cursor: pointer ;
+}
+.Header-Menu .Menu{
+    display: flex;
+    align-items: center;
+}
+
+
+.Header-Menu .Menu li a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.Search-field{
+    height: 50px;
+    width: 270px;
+    padding: 0 10px;
+    background-color: #ae8406;
+    border: none;
+
+}
+
+
+.Search-field::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    color: #fff;
+    
+}
+.Search-item{
+    position: relative;
+
+}
+.Search-btn{
+    height: 50px;
+    width: 70px;
+    background-color: #00BFCB;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-icon{
+    font-size: 24px;
+    color: #ffffff;
+
+}
+/*----------------banner-section start here--------------*/
+
+.banner-section{
+    background-color : #fcc302;
+    
+}
+.banner-section .container{
+    width: 1200px;
+    padding: 0 25px;
+     height: 100%;
+    margin: 0 auto;
+ justify-content: space-between;
+    background-color: #fcc302;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.banner-text-content {
+    max-width: 60%;
+    
+}
+.banner-image{
+    max-width: 40%;
+}
+
+.banner-text-content h1{
+ font-size: 67px;
+ font-weight: 600;
+ color: #ffffff;
+ line-height: 74px;
+ margin-bottom: 40px;
+ line-height: 74px;
+ margin-bottom: 40px;
+}
+
+
+
+.banner-text-content p{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.banner-button {
+    margin-top: 40px;
+}
+.banner-button a{
+    color: #ffffff;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 24px 34px;
+
+}
+.banner-button a:first-child{
+    background-color:#00bec9 ;
+    padding: 24px 34px;
+    
+
+
+}
+.banner-button a:last-child{
+    border: 3px solid #ffffff;
+    margin-left: 30px;
+
+}
+
+
+
+
+/*--------------------animals lover section------------*/
+
+
+
+.animals-lover-section .container{
+    width: 1200px;
+    padding: 140px 25px;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+
+
+
+
+
