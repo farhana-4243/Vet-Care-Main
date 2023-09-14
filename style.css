@@ -270,12 +270,27 @@
 
 
 
+        /* -animals lover section2 */
 
+.lovers-of-animals{
 
-
-
-
-
-
-
+     width: 1200px;
+     padding: 140px 25px;
+     margin-left: 150px;
+     margin-right: 50px;
+     
+     background-color: #ffffff;
+     display: flex;
+     justify-content: space-between;
+}
+ 
+.lovers-of-animals .animal-lover_text-content{
+    text-align: end;
+    font-size: 40px;
+    font-weight: 400;
+    color: #313243;
+    line-height: 56px;
+    margin-bottom: 40px;
+    
+}
 
