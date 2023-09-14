@@ -218,6 +218,62 @@
     width: 100%;
 }
 
+ 
+        /* our service sections */
+
+.our-service-section{
+    background-color: #fcc302;
+    width: 100%;
+  
+}
+
+.our-service-section .container{
+    background-color: #fcc302;
+    width: 1200px;
+    padding: 0 25px;
+    position: relative;
+    justify-content: space-between;
+
+
+}
+
+.our-service-section h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+}
+ 
+.our-service-section p{
+    text-align: center;
+    color: white;
+    font-size: 20px ;
+}
+.our-service-section .container .image-service-column{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    padding: 50px;
+
+}
+
+.our-service-section .container .image-service-column .images{
+    text-align: center;
+    padding: 30px ;
+    padding-left: 5px;
+}
+ 
+.our-service-section .container .image-service-column .images h3{
+    color: white;
+    height: 30px;
+}
+
+
+
+
+
+
+
 
 
 
