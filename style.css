@@ -294,3 +294,64 @@
     
 }
 
+
+ /*  get offer dog price */
+
+ 
+.get-offer{
+    background-color: #fcc302;
+    width: 100%;
+  
+}
+
+.get-offer .container{
+    background-color: #fcc302;
+    width: 1200px;
+    padding: 0 25px;
+    position: relative;
+    justify-content: space-between;
+
+
+}
+
+.get-offer h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+}
+ 
+.get-offer p{
+    text-align: center;
+    color: white;
+    font-size: 20px ;
+}
+.get-offer .container .get-offer-img{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    padding: 50px;
+
+}
+
+.get-offer .container .get-offer-img .img{
+    text-align: center;
+    padding: 30px ;
+    padding-left: 5px;
+    margin-bottom: 30px;
+
+}
+ 
+ .get-offer-img .img h2{
+    color: white;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.price a{
+    border: 1px solid #00bec9;
+    border-radius: 50px;
+    background-color: #00bec9 ;
+    padding: 8px 25px;
+    display: inline-block;
+    color: white;
+}
